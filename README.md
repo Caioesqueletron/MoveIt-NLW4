@@ -24,7 +24,7 @@ Um aplicativo  que basicamente voce gerencia suas tarefas de modo que não preju
 <hr>
 
 ## Requisitos para o projeto e como Rodar o projeto
-1. Fazer o git clone https://github.com/Caioesqueletron/FrontEndMentor.git
+1. Fazer o git clone https://github.com/Caioesqueletron/MoveIt-NLW4.git
 2. Abrir a pasta do projeto no `VSCode`
 3. Instalar dependecias com yarn add # ou npm install
 4. Rodar o comando yarn dev  
