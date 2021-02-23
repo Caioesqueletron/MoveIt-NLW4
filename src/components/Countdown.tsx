@@ -12,6 +12,7 @@ export function Countdown(){
     function startCountdown(){
         setActive(true)
     }
+    //teste
     useEffect(() =>{
         if(active && time > 0){
             setTimeout(() => {
