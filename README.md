@@ -2,7 +2,7 @@
 Move-it
 </h1>
 
-<img align="center" width="100%" src="./assets/logo.svg">
+<img align="center" width="100%" src="assets/logo.svg">
 
 
 
