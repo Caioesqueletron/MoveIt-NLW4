@@ -2,7 +2,7 @@ import styles from '../styles/components/SideBar.module.css'
 export function SideBar() {
     return (
         <div className={styles.menu}>
-            <span><img src="icons/logo.svg" alt="" /></span>
+            <span><img src="icons/Logo.svg" alt="" /></span>
             <span className={styles.logo}>
                 <div>
                     <img src="icons/home.svg" alt="" />
