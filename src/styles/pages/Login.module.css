@@ -1,0 +1,115 @@
+.container{
+  
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: url(/icons/Simbolo.svg) var(--blue) no-repeat;
+    align-items: flex-end;
+}
+
+.container section {
+    flex: 1;
+    
+    align-content: center;
+}
+
+
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 7rem;
+    margin-bottom: 199px;
+    margin-left: -96px;
+    margin-right: 120px;
+}
+
+.login img {
+    padding-bottom: 5rem;
+}
+.login form {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.login input {
+    background: linear-gradient(90deg, #4953B8 0%, rgba(73, 83, 184, 0.2) 100%);
+    border-radius: 5px 0px 0px 5px;
+    width: 340px;
+    height: 80px;
+    border: none;
+    font-size: 1.25rem;
+    color: var(--white);
+    font-weight: 500;
+    padding-left: 1.885rem;
+    line-height: 1.5rem;
+}
+
+.login button {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: var(--blue-dark);
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    transition: background .2s;
+}
+.login button:hover {
+    background: var(--green);
+}
+.login button img{
+    position: absolute;
+    left: 28px;
+    top: 28px;
+
+}
+.login input::placeholder{
+    color: var(--white);
+}
+
+
+.welcome{
+    display: flex;
+    flex: 1;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height:2.875rem ;
+    color: var(--white);
+}
+
+.github{
+    display: flex;
+    flex: 1;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.github span {
+    padding: 2rem;
+    line-height: 1.8rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #B2B9FF;
+}
+
+.github img {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        align-items: center;
+    }
+
+    .login{
+        margin: 2.5rem 0;
+        
+    }
+}
